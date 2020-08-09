@@ -8,6 +8,10 @@
     "build": "rm -rf dist && babel backend -d dist",
     "heroku-postbuild": "npm run build && cd frontend && npm install && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basir/amazona.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
