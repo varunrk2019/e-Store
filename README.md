@@ -5,7 +5,7 @@
 
 ```
 $ git clone git@github.com:varunrk2019/e-Store.git
-$ cd node-react-ecommerce
+$ cd e-Store
 ```
 
 ### 2. Install MongoDB
