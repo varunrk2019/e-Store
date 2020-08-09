@@ -15,7 +15,7 @@ mongoose
     useUnifiedTopology: true,
     useCreateIndex: true,
   })
-  .catch((error) => console.log(error.reason));
+  .catch(() => console.log("DB CONNECTED"));
 
 const app = express();
 app.use(bodyParser.json());
