@@ -6,7 +6,7 @@ A complete e-Store using MERN Stack
 ### 1. Clone repo
 
 ```
-$ git clone git@github.com:basir/node-react-ecommerce.git
+$ git clone git@github.com:varunrk2019/e-Store.git
 $ cd node-react-ecommerce
 ```
 
