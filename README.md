@@ -1,4 +1,3 @@
-
 ## Run Locally
 
 ### 1. Clone repo
@@ -12,33 +11,35 @@ $ cd e-Store
 
 Download it from here: https://docs.mongodb.com/manual/administration/install-community/
 
-### 3. Run Backend
-
-```
-$ npm install
-$ npm start
-```
-
-### 4. Run Frontend
+### 3. Run Frontend
 
 ```
 # open new terminal
 $ cd frontend
 $ npm install
+$ npm run build
+```
+
+### 4. Run Backend
+
+```
+$ npm install
 $ npm start
 ```
 
+
+
 ### 5. Create Admin User
 
-- Run this on chrome: http://localhost:5010/api/users/createadmin
+- Run this on chrome: http://localhost:9002/api/users/createadmin
 - It returns admin email and password
 
 ### 6. Login
 
-- Run http://localhost:3000/signin
+- Run http://localhost:9002/signin
 - Enter admin email and password and click signin
 
 ### 7. Create Products
 
-- Run http://localhost:3000/products
+- Run http://localhost:9002/products
 - Click create product and enter product info
