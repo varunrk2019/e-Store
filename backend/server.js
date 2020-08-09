@@ -15,7 +15,7 @@ mongoose
     useUnifiedTopology: true,
     useCreateIndex: true,
   })
-  .catch(() => console.log("DB CONNECTED"));
+  .then(() => console.log("DB CONNECTED"));
 
 const app = express();
 app.use(bodyParser.json());
@@ -33,5 +33,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(config.PORT, () => {
-  console.log('Server started at http://localhost:5000');
+  console.log('app is running at ${port}');
 });
